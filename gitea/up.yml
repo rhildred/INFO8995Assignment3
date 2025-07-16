@@ -12,3 +12,8 @@
       release_namespace: default
       values_files:
       - values.yaml
+  - name: make ingress
+    kubernetes.core.k8s:
+      state: present
+      namespace: default
+      src: ingress.yml
