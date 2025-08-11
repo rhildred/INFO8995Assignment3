@@ -20,3 +20,5 @@ gitea:
       ADAPTER: memory
     queue:
       TYPE: level
+    server:
+      ROOT_URL: "https://gitea.k3p.dev/"      
